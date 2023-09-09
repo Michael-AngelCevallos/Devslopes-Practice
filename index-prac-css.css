@@ -1,0 +1,15 @@
+
+/* Spreads Out Table Headers */
+table{
+  width: 100%;
+}
+
+/* Adds border around text  */
+table, th, tr, td{
+  border: 1px solid black;
+}
+
+/* Centers all H3's on page */
+h3{
+  text-align: center;
+}

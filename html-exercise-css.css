@@ -1,0 +1,19 @@
+h1{
+  text-align: center;
+}
+
+table{
+  width:100%;
+}
+
+table, tr, th, td{
+  border: 1px solid black;
+}
+
+tr{
+  text-align: center;
+}
+
+li{
+  text-align: left;
+}
