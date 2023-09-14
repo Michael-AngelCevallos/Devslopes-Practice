@@ -50,19 +50,40 @@
 <h2>Text Box using Label Element Within Form w/ br & submit button</h2>
 <form>
   <label for="firstNameTwo">First Name: </label><br>
-    <input id="firstNameTwo" type="text"><br>
+    <input id="firstNameTwo" type="text" name="firstName"><br>
   <label for="lastName">Last Name: </label><br>
-    <input id="lastName" type="text"> <br><br>
+    <input id="lastName" type="text" name="lastName"> <br><br>
 
+    <h2>Radio Buttons W/ Name Attribute (Switchable)</h2>
     <!-- Radio Buttons W/ Name attribute -->
-    <input type="radio" id="male" name="male">
+    <input type="radio" id="male" name="gender">
     <label for="male">Male</label>
 
-    <input type="radio" id="female" name="female">
+    <input type="radio" id="female" name="gender">
     <label for="female">Female</label>
 
-    <input type="radio" id="other" name="other">
+    <input type="radio" id="other" name="gender">
     <label for="other">Other</label>
+
+    <br>
+
+    <h2> Assure on touch screen that when text is clicked, radio button is selected</h2>
+    <h3> - Put Input Inside Of Label</h3>
+
+    
+    <label for="male1">
+      <input type="radio" id="male1" name="gender1">
+      Male</label>
+
+    
+    <label for="female1">
+      <input type="radio" id="female1" name="gender1">
+      Female</label>
+
+    
+    <label for="other1">
+      <input type="radio" id="other1" name="gender1">
+      Other</label>
 
     <br><br>
     <input type="submit">
