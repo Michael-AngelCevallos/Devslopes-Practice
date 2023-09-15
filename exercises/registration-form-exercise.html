@@ -4,6 +4,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registration Form Exercise</title>
+  <style>
+    body{
+      background-color: cadetblue;
+    }
+  </style>
 </head>
 <body>
   
@@ -17,20 +22,20 @@
 
   <form>
 
-  <label>Name*</label><br>
-  <input type="text" placeholder="First and Last Name" size="30">
+  <label for="name">Name*</label><br>
+  <input type="text" id="name" name="name" placeholder="First and Last Name" size="30" required>
   <br><br>
 
-  <label>Email*</label><br>
-  <input type="email" placeholder="Enter Email">
+  <label for="email">Email*</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter Email" required>
   <br><br>
 
-  <label>Telephone*</label><br>
-  <input type="tel" size="4" maxlength="3" placeholder="555">-<input type="tel" size="4" placeholder="555">-<input type="tel" size="5" placeholder="555">
+  <label for="phone">Telephone*</label><br>
+  <input type="tel" id="phone" size="4" maxlength="3" placeholder="555" required>-<input type="tel" id="phone" size="4" placeholder="555" maxlength="3" required>-<input type="tel" id="phone" size="5" placeholder="555" maxlength="4" required>
   <br><br>
 
   <label for="dob">Date of Birth*</label><br>
-  <input type="date">
+  <input type="date" id="dob" name="dob" required>
   <br><br>
 
   <label for="gender">Gender</label><br>
@@ -53,31 +58,37 @@
   <br><br>
 
   <label for="annualIncome">Annual Income</label><br>
-  <select>
-    <option>Less than 40k</option>
-    <option>40k - 60k</option>
-    <option>60k-80k</option>
-    <option>80k or More</option>
+  <select id="annualIncome" name="annualIncome">
+    <option value="lessThan40">Less than 40k</option>
+    <option value="40-60">40k - 60k</option>
+    <option value="60-80">60k-80k</option>
+    <option value="80OrMore">80k or More</option>
   </select>
 
 <br><br>
 
 
 <label for="message">Message</label><br>
-  <textarea placeholder="Add message here...." rows="8" cols="40"></textarea>
+  <textarea id="message" name="message" placeholder="Add message here...." rows="8" cols="40"></textarea>
 
 <br><br>
 
-<label for="password">Password*</label>
-  <input><br>
+<label for="password">Password*</label><br>
+  <input type="password" id="password" name="password" required><br>
 
-  <br>
-  <input><br>
-  <input><br><br>
+  
+<label for="confirmPass">Confirm Password*</label><br>
+  <input type="password" id="confirmPass" name="password" required><br>
 
+  <br><br>
 
+  
+  <input type="checkbox" id="terms" name="terms">
+  <label for="terms"> By Signing up, your are agreeing to the <a href="#">Terms of Service</a></label>
 
-  <input type="submit"><br>
+  <br><br>
+
+  <input type="submit" id="submit" name="submit" method="post"><br>
 
   </form>
 
