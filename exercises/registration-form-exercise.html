@@ -18,7 +18,7 @@
   <form>
 
   <label>Name*</label><br>
-  <input type="text" placeholder="Enter your First and Last Name" size="30">
+  <input type="text" placeholder="First and Last Name" size="30">
   <br><br>
 
   <label>Email*</label><br>
@@ -26,7 +26,7 @@
   <br><br>
 
   <label>Telephone*</label><br>
-  <input type="tel" size="4" maxlength="3">-<input type="tel" size="4">-<input type="tel" size="5">
+  <input type="tel" size="4" maxlength="3" placeholder="555">-<input type="tel" size="4" placeholder="555">-<input type="tel" size="5" placeholder="555">
   <br><br>
 
   <label for="dob">Date of Birth*</label><br>
@@ -35,13 +35,13 @@
 
   <label for="gender">Gender</label><br>
 
-  <input type="radio">
+  <input type="radio" id ="male" name="gender" value="male">
   <label for="male">Male</label>
   
-  <input type="radio">
+  <input type="radio" id="female" name="gender" value="female">
   <label for="female">Female</label>
 
-  <input type="radio">
+  <input type="radio" id="other" name="gender" value="other">
   <label for="other">Other</label>
 
   <br><br>
@@ -49,8 +49,10 @@
 
 
 
-  
-  <input><br>
+  <label for="household">Household Size(Number of Occupants)</label><br>
+  <input type="number"><br>
+<br><br>
+
   <input><br>
   <input><br>
   <input><br>
