@@ -4,6 +4,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Survey Form Ecercise</title>
+
+<style>
+  body{
+    background-color: cadetblue;
+  }
+</style>
 </head>
 <body>
 
@@ -41,14 +47,18 @@
     <br><br>
     
     <label for="movie">What Is Your Favorite Movie Genre?</label>
-    <select>
-      <option id="" name="" value=""></option>
-      <option></option>
-      <option></option>
-      <option></option>
-      <option></option>
+    <select id="movie" name="movie">
+      <option id="action"  value="action">Action</option>
+      <option id="horror"  value="horror">Horror</option>
+      <option id="drama"  value="drama">Drama</option>
+      <option id="comedy"  value="comedy">Comedy</option>
+      <option id="suspense"  value="suspense">Suspense</option>
     </select>
 
+<br><br>
+
+<label for="submit"></label>
+<input type="submit" id="submit" name="submit" value="Submit Form" method="post">
 
 
   </form>
