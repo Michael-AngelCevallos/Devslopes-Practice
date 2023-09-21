@@ -1,3 +1,18 @@
 h1{
-  color: red;
+  color: #714cfe;
+}
+
+h2{
+  color:#d602ee;
+}
+
+em{
+  color:#ee6002;
+}
+
+button{
+  background:#b39afd ;
+  border: 1px solid #b39afd;
+  border-radius: 5px;
+  color:#eee6ff;
 }
