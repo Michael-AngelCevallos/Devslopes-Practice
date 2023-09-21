@@ -15,4 +15,18 @@ button{
   border: 1px solid #b39afd;
   border-radius: 5px;
   color:#eee6ff;
+  padding:8px 10px;
+}
+
+input{
+  background: #f2bcf8;
+  border: 1px solid;
+  border-radius: 5px;
+  color:#d602ee;
+
+}
+
+input:focus {
+  outline: none;
+  border: 5px solid #61d800;
 }
