@@ -1,0 +1,17 @@
+h1{
+  color: dodgerblue;
+  text-align: left;
+  text-decoration: overline;
+  text-shadow: 2px 2px 4px #000;
+}
+
+p{
+  text-align: justify;
+  text-indent: 50px;
+  letter-spacing: 1.2px;
+  line-height: 2;
+}
+
+a{
+  text-decoration: none;
+}
