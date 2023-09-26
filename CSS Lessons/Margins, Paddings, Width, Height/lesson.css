@@ -9,6 +9,9 @@ button{
   /* margin: 20px; */
 
   /* Two Value - 1st : TOP/BOTTOM 2nd: LEFT/RIGHT */
-  margin: 20px 10px;;
+  /* margin: 20px 10px; */
+
+  /* Three Value - 1st : TOP 2nd: LEFT/RIGHT 3rd: BOTTOM */
+  margin: 20px 10px 15px;
 
 }
