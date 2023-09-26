@@ -1,4 +1,4 @@
-button{
+#btn-1{
 
   margin-top: 10px;
   margin-bottom: 10px;
@@ -14,8 +14,17 @@ button{
   /* Three Value - 1st : TOP 2nd: LEFT/RIGHT 3rd: BOTTOM */
   /* margin: 20px 10px 15px; */
 
-  /* Four Value - 1st : TOP 2nd: RIGHT 3rd: BOTTOM 4th: Right */
+  /* Four Value - 1st : TOP 2nd: RIGHT 3rd: BOTTOM 4th: Right (Like A Clock!!) */
   margin: 20px 10px 15px 20px;
 
 
+}
+
+#btn-2{
+
+  border: 100px;
+}
+
+input{
+  padding: 20px;
 }
