@@ -6,6 +6,9 @@ button{
   margin-left: 20px;
 
   /* Single Value - adds margin to ALL Sides*/
+  /* margin: 20px; */
 
+  /* Two Value - 1st : TOP/BOTTOM 2nd: LEFT/RIGHT */
+  margin: 20px 10px;;
 
 }
