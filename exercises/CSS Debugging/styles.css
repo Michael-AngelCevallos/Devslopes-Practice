@@ -1,7 +1,13 @@
+html{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
 body {
   background-color: #efefef;
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-  max-width: 1200px;
+  max-width: 2000px;
 }
 
 .top-bar,
