@@ -39,6 +39,10 @@ img{
   max-width: 300%;
 }
 
-.fav li{
+.fav {
   color:red;
+}
+
+.not-fav {
+  color:blue;
 }
