@@ -37,6 +37,7 @@ td{
 
 img{
   max-width: 300%;
+  border-radius: 20%;
 }
 
 .fav {
@@ -48,9 +49,11 @@ img{
 }
 
 .fav-th {
-
+  color: green;
+  background-color: aliceblue;
 }
 
 .not-fav-th {
-  
+  color:blueviolet;
+  background-color: aliceblue;
 }
