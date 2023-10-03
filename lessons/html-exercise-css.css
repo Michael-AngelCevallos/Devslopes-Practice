@@ -27,7 +27,10 @@ li{
 }
 
 td{
-  padding: 0px 10px;
+  width: 33.33%;
+  padding: 10px;
+  border-collapse: collapse;
+  text-align: center;
 }
 
 
