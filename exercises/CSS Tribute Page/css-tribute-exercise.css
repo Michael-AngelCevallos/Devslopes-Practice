@@ -30,5 +30,16 @@ h1{
 
 .first {
   border: 2px solid black;
-  padding: ;
+  
+}
+
+.profile-pic {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.quote{
+  background-color: grey;
+  
 }
