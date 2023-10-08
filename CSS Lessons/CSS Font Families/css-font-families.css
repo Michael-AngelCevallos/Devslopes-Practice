@@ -1,0 +1,25 @@
+
+p{
+  font-size: 50px;
+}
+
+
+.serif{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.sans-serif{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.ranchers{
+  font-family: 'Ranchers', sans-serif;
+}
+
+.kufam{
+  font-family: 'Kufam', sans-serif;;
+}
