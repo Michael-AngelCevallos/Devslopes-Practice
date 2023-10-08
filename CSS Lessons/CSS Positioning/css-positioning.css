@@ -1,7 +1,16 @@
 
 
+/* POSITIONED FIXED */
+nav{
+  background-color: green;
+  position: fixed;
+  height: 50px;
+  left: 0;
+  right: 0;
+}
 
-/* Postion Relative Elements  */
+
+/* Position Relative Elements  */
 .container-relative{
   border: 3px solid blue;
   height: 200px;
@@ -34,7 +43,7 @@
 
   /* This will keep all elements within this div inside of this div instead of all over the page!!!! */
   position: relative; 
-  
+  margin-bottom: 20px;
   
 }
 
@@ -55,8 +64,26 @@
   position: absolute;
   top: 30;
   right:0;
+  z-index: 100;
 }
 
 
+/* Position Sticky Elements */
+.position-sticky{
 
+border: 3px solid blue;
+position: sticky;
+top: 0;
+padding: 10px;
+background-color: #cae8ca;
+z-index: 101;
 
+}
+
+.box-5{
+
+}
+
+.box-6{
+
+}
