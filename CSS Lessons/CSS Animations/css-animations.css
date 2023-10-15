@@ -1,0 +1,20 @@
+.div-1{
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+  border: 1px solid black;
+  position: relative;
+  animation-name: example ;
+  /* animation-duration: 4s; */
+  animation-delay: 2s;
+  animation-iteration-count: 3;
+}
+
+
+@keyframes example{
+  0% {background-color: yellowgreen; left: 0; top: 0;}
+  55% {background-color: red; left: 200px; top: 0;}
+  70%{ background-color: blue; left: 600px; top:200px:}
+  75% {background-color: green; left: 0; top: 200px;}
+  100% {background-color: yellow; left: 0;}
+}
