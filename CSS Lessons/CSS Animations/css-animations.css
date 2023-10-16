@@ -4,10 +4,17 @@ div{
   background-color: yellowgreen;
   border: 1px solid black;
   position: relative;
-  animation-name: example ;
+
+  /* ALL THIS IS PUT INTO ONE LINE BELOW */
+  /* animation-name: example ;
   animation-duration: 4s;
   /* animation-delay: 2s; */
-  animation-iteration-count: 3;
+  /* animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-fill-mode: backwards;  */
+
+
+  animation: example 4s 2s infinite reverse backwards;
 }
 
 
