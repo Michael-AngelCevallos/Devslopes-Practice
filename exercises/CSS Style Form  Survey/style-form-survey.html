@@ -24,76 +24,98 @@
   <div>
     <h2 class="item-name">Name</h2>
   <label for="name" class="item-name"></label>
-  <input id="name" type="text" class="text-box" placeholder="Enter Your Name">
+  <input id="name" type="text" class="text-box" name="name" placeholder="   Enter Your Name" required>
  </div>
 
  <div>
   <h2 class="item-name">Email</h2>
   <label for="email" class="item-name"></label>
-  <input id="email" type="email" class="text-box" placeholder="Enter Your Email">
+  <input id="email" type="email" class="text-box" name="email" placeholder="   Enter Your Email" required>
 </div>
 
   <div>
     <h2 class="item-name">Age(optional)</h2>
-  <label for="age" class="item-name">Age(optional)</label>
-  <input id="age" type="number" class="text-box" placeholder="Age">
+  <label for="age" class="item-name"></label>
+  <input id="age" type="number" class="text-box" name="age" placeholder="   Age" >
 </div>
 
   
-  <label for="role" class="item-name">Which option describes your current role?</label> 
+  <h2 for="role" class="item-name">Which option describes your current role?</h2> 
 
-
-  <select name="role" id="role" class="role">
+  <select name="role" id="role" class="role" required>
     <option value="">Select an option</option>
-    <option value=""></option>
-    <option value=""></option>
-    <option value=""></option>
+    <option value="">Student</option>
+    <option value="">Full Time Job</option>
+    <option value="">Full Time Learner</option>
+    <option value="">Prefer Not To Say</option>
+    <option value="">Other</option>
   </select>
 
 
   <h2 class="item-name">Would you recommend Devslopes to a friend?</h2>
-  <input type="radio" > Definitely 
+  
+  <input type="radio" style=" height: 23px; width: 23px;" name="radio-input"> 
+  <label for="opt-1" class="radio-opt">Definitely</label>
   <br>
-  <input type="radio"> No
+  <input type="radio" style=" height: 23px; width: 23px;" name="radio-input"> 
+  <label for="opt-2" class="radio-opt">Maybe</label>
   <br>
-  <input type="radio"> Maybe
+  <input type="radio" style=" height: 23px; width: 23px;" name="radio-input"> 
+  <label for="opt-3" class="radio-opt">Not Sure</label>
 
 
 
   <h2 class="item-name">What is your favorite feature of Devslopes?</h2>
 
   <label for="favorite" ></label>
-  <select name="favorite" id="favorite" class="role" >
-  <option value="">Select an option</option>
-  <option value=""></option>
+  <select name="favorite" id="favorite" class="role" required>
+  <option value="select">Select an option</option>
+  <option value="challenges">Challenges</option>
+  <option value="projects">Projects</option>
+  <option value="community">Community</option>
+  <option value="mentorship">Mentorship</option>
   </select>
 
 
-  <h2 class="item-name">What would you like to see improved?</h2>
+  <h2 class="item-name">What would you like to see improved? (check all that apply)</h2>
 
-  <input type="checkbox">
+  <div class="radio-inputs">
+  <input type="checkbox" style=" height: 23px; width: 23px;" name="fep">
+  <label for="inpt-1" class="radio-opt">Front-End Projects</label>
   <br>
-  <input type="checkbox">
+  <input type="checkbox" style=" height: 23px; width: 23px;" name="bep">
+  <label for="" class="radio-opt">Back-End Project</label>
   <br>
-  <input type="checkbox">
+  <input type="checkbox" style=" height: 23px; width: 23px;" name="challenges">
+  <label for="" class="radio-opt">Challenges</label>
   <br>
-  <input type="checkbox">
+  <input type="checkbox" style=" height: 23px; width: 23px;" name="videos">
+  <label for="" class="radio-opt">Videos</label>
   <br>
-  <input type="checkbox">
+  <input type="checkbox" style=" height: 23px; width: 23px;" name="online">
+  <label for="" class="radio-opt">Online Meet Ups</label>
+  <br>
+  <input type="checkbox" style=" height: 23px; width: 23px;" name="community">
+  <label for="" class="radio-opt">Community</label>
+  <br> 
+  <input type="checkbox" style=" height: 23px; width: 23px;" name="nothing">
+  <label for="" class="radio-opt">Nothing</label>
+</div>
+
 
   <h2 class="item-name">Any comments or suggestions?</h2>
-  <textarea name="" id="" cols="81" rows="10"></textarea>
+  <textarea name="" id="" cols="81" rows="10" placeholder=" Enter your comment here....." required></textarea>
 
   <br><br><br>
   <input type="submit" class="submit">
 
   </div>
-</form>
+
 
 
   <br><br><br><br>
 </div>
-
+</form>
 
 </body>
 
