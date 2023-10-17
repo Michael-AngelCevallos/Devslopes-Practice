@@ -1,0 +1,33 @@
+
+/* Element = 1 point */
+h2{
+color:blue;
+}
+
+/* Id = 100 points */
+#h2Id{
+ color: firebrick;
+}
+
+/* Elm + [attribute] = 11 points */
+h2[id="h2Id"]{
+  color: yellowgreen;
+}
+
+/* Element + element = 2 points */
+section h2{
+  color:red;
+}
+
+/* .Class + element = 11 points */
+.class-h2 {
+  color: green;
+}
+
+h2:hover {
+  background: indigo;
+}
+
+body h2:hover{
+ background: pink;
+}
