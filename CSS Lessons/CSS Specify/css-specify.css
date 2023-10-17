@@ -1,12 +1,17 @@
 
 /* Element = 1 point */
 h2{
-color:blue;
+color:blue ;
 }
 
 /* Id = 100 points */
 #h2Id{
  color: firebrick;
+}
+
+/* class + element + Id + .class + .class + .class = 132 points */
+.container-1 section #foo.class-1.class-2.class-3 {
+  color: yellowgreen;
 }
 
 /* Elm + [attribute] = 11 points */
@@ -24,6 +29,8 @@ section h2{
   color: green;
 }
 
+
+
 h2:hover {
   background: indigo;
 }
@@ -31,3 +38,8 @@ h2:hover {
 body h2:hover{
  background: pink;
 }
+
+/* !important keyword - will override specificity */
+/* h2{
+  color: blue !important;
+} */
