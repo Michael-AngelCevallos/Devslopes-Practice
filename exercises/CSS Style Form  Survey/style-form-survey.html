@@ -16,21 +16,33 @@
 </header>
 
 
+<form action="post" id="surveyForm">
+
 <div class="main-content">
 
-  <div style="margin-top: 30px;" class="info">
-  <h2 class="item-name">Name</h2>
-  <input type="text" class="text-box" placeholder="Enter Your Name">
+ 
+  <div>
+    <h2 class="item-name">Name</h2>
+  <label for="name" class="item-name"></label>
+  <input id="name" type="text" class="text-box" placeholder="Enter Your Name">
+ </div>
 
+ <div>
   <h2 class="item-name">Email</h2>
-  <input type="email" class="text-box" placeholder="Enter Your Email">
+  <label for="email" class="item-name"></label>
+  <input id="email" type="email" class="text-box" placeholder="Enter Your Email">
+</div>
 
-  <h2 class="item-name">Age(optional)</h2>
-  <input type="number" class="text-box" placeholder="Age">
+  <div>
+    <h2 class="item-name">Age(optional)</h2>
+  <label for="age" class="item-name">Age(optional)</label>
+  <input id="age" type="number" class="text-box" placeholder="Age">
+</div>
 
-  <h2 class="item-name">Which option describes your current role?</h2> 
+  
+  <label for="role" class="item-name">Which option describes your current role?</label> 
 
-  <label for="role"></label>
+
   <select name="role" id="role" class="role">
     <option value="">Select an option</option>
     <option value=""></option>
@@ -76,6 +88,8 @@
   <input type="submit" class="submit">
 
   </div>
+</form>
+
 
   <br><br><br><br>
 </div>
