@@ -19,6 +19,8 @@
   justify-content: center;
 
   grid-column: 1/5;
+grid-row-start: 1;
+grid-row-end: 2;
 
 }
 
@@ -27,6 +29,8 @@
   display: flex;
   justify-content: center;
   grid-column-start: 3;
+  grid-column-end: 5;
+
 }
 
 .sidevar{
