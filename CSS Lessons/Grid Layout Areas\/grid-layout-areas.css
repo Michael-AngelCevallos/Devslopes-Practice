@@ -26,6 +26,7 @@
   background-color: lightblue;
   display: flex;
   justify-content: center;
+  grid-column-start: 3;
 }
 
 .sidevar{
