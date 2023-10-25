@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  background-color: black;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: black;
+}
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+h1{
+  color:white;
+  text-align: center;
+
+  font-size: 80px;
+
+  padding-top: 80px;
+}
+
+hr{
+  margin: 20px; 
+  border-color: #7AFD99;
+}
+
+
+.grid-container {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+   gap: 30px;
+
+}
+
+
+.box-0{
+display: grid;
+justify-content: center;
+
+background-image:url("https://merriam-webster.com/assets/mw/images/gallery/gal-wap-slideshow-slide/sunset-9370-0d6ffa26d4ea3b270422eb47ff2829a2@1x.jpg") ;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+grid-row-start: 1;
+grid-column-start: 1;
+
+grid-row-end: 4;
+grid-column-end: 6;
+
+border-radius: 10px;
+
+
+
+}
+
+.box-1{
+ display: grid;
+ justify-content: center;
+
+ background-image:url("https://hips.hearstapps.com/hmg-prod/images/hbz-venice-gettyimages-489741024-1505338894.jpg") ;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+ background-color: #7AFD99; 
+ grid-row-start: 4;
+ grid-column-start: 1;
+
+ grid-row-end: 10;
+ grid-column-end: 4;
+
+ border-radius: 10px;
+}
+
+.box-2{
+display: grid;
+justify-content: center;
+
+background-image:url("https://static.boredpanda.com/blog/wp-content/uuuploads/amazing-places/amazing-places-antelope-canyon-3.jpg") ;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+background-color: #568AF7; 
+grid-row-start: 4;
+grid-column-start: 4;
+
+grid-row-end: 8;
+grid-column-end: 6;
+
+border-radius: 10px;
+}
+
+.box-3{
+display: grid;
+justify-content: center;
+
+background-image:url("https://hips.hearstapps.com/hmg-prod/images/landscape-sunset-view-of-morain-lake-and-mountain-royalty-free-image-1658765829.jpg") ;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+background-color: #F5DCFE; 
+grid-row-start: 8;
+grid-column-start: 4;
+
+grid-row-end: 10;
+grid-column-end: 6;
+
+border-radius: 10px;
+}
+
+.box-4{
+display: grid;
+justify-content: center;
+
+background-image:url("https://wanderwithwonder.b-cdn.net/wp-content/uploads/2020/09/aurora-borealis-69221_1920.jpg") ;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+background-color: #77DDB7; 
+grid-row-start: 10;
+grid-column-start: 1;
+
+grid-row-end: 12;
+grid-column-end: 6;
+
+border-radius: 10px;
+}
+
+.box-5{
+display: grid;          
+justify-content: center;
+
+background-image:url("https://hips.hearstapps.com/hmg-prod/images/kuang-si-waterfall-royalty-free-image-1693283318.jpg?crop=0.99882xw:1xh;center,top&resize=980:*") ;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+background-color: #5655D8; 
+grid-row-start: 1;
+grid-column-start: 6;
+
+grid-row-end: 10;
+grid-column-end: 9;
+
+border-radius: 10px;
+}
+
+
+.box-6{
+  display: grid;      
+  justify-content: center;
+
+  background-image:url("https://media.cnn.com/api/v1/images/stellar/prod/190417163838-21-earth-beautiful-places-restricted.jpg?q=w_5000,h_2813,x_0,y_0,c_fill/h_618") ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-color: #DBDC75; 
+   grid-row-start: 10;
+   grid-column-start: 6;
+
+   grid-row-end: 12;
+   grid-column-end: 12;
+
+   border-radius: 10px;
+}
+
+.box-7{
+  display: grid;      
+  justify-content: center;
+
+  background-image:url("https://media.licdn.com/dms/image/C4E12AQG7uqiU4CF_hg/article-cover_image-shrink_720_1280/0/1520084784635?e=2147483647&v=beta&t=5Q8yQa8xWmPKOhzSX7GmgCCXSYuFYM3BFU6dPGdyDt4") ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-color: #F9E5EB; 
+  grid-row-start: 1;
+  grid-column-start: 9;
+
+  grid-row-end: 3;
+  grid-column-end: 12;
+
+  border-radius: 10px;
+}
+
+
+.box-8{
+ display: grid;        
+ justify-content: center;
+
+ background-image:url("https://www.creativeboom.com/uploads/articles/68/68ef1f34ab4ef76b4e9d844e435e062684933002_810.jpg") ;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+
+ background-color: #8B6F8A; 
+   grid-row-start: 3;
+   grid-column-start: 9;
+
+   grid-row-end: 10;
+   grid-column-end: 12;
+
+   border-radius: 10px;
+}
+.box-9{
+  display: grid;     
+  justify-content: center;
+
+  background-image:url("https://static.toiimg.com/thumb/msid-87867224,width-748,height-499,resizemode=4,imgsize-232412/.jpg") ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-color: #CFEBD5; 
+  grid-row-start: 1;
+  grid-column-start: 12;
+
+  grid-row-end: 3;
+  grid-column-end: 17;
+
+  border-radius: 10px;
+}
+.box-10{
+  display: grid;      
+  justify-content: center;
+
+  background-image:url("https://natureswayrvpark.com/wp-content/uploads/2020/12/post-4.jpg") ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-color: #B6E5E5; 
+   grid-row-start: 3;
+   grid-column-start: 12;
+
+   grid-row-end: 4;
+   grid-column-end: 13;
+
+   border-radius: 10px;
+}
+.box-11{
+display: grid;
+justify-content: center;
+
+background-image:url("https://travelphotodiscovery.com/wp-content/uploads/2019/12/Havasu-falls.jpg") ;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+background-color: #7BDB99; 
+grid-row-start: 3;
+grid-column-start: 13;
+
+grid-row-end: 4;
+grid-column-end: 17;
+
+border-radius: 10px;
+}
+
+.box-12{
+display: grid; 
+justify-content: center;
+
+background-image:url("https://publish.purewow.net/wp-content/uploads/sites/2/2021/05/antelope-canyon-arizona-most-beautiful-places-in-the-world.jpg?fit=675%2C501");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+background-color: #E5DDFC; 
+grid-row-start: 4;
+grid-column-start: 12;
+
+grid-row-end: 11;
+grid-column-end: 17;
+
+border-radius: 10px;
+}
+
+.box-13{
+display: grid;          
+justify-content: center;
+
+background-image:url("https://static.airhelp.com/wp-content/uploads/2015/06/14161446/jan-traid-375123-unsplash.jpg") ;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+background-color: #D5D9BE; 
+grid-row-start: 11;
+grid-column-start: 12;
+
+grid-row-end: 12;
+grid-column-end: 17;
+
+border-radius: 10px;
+}
+
+
+   
+   
