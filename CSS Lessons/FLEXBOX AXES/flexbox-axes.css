@@ -1,0 +1,16 @@
+
+
+.main{
+  border: 2px dotted blue;
+  display: flex;
+  flex-direction: row;
+}
+
+.main > div {
+  height: 75px;
+  width: 75px;
+  background-color: #4A90e2;
+  color: white;
+
+  text-align: center;
+}
