@@ -1,0 +1,166 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* header{
+  display: flex;
+  flex-direction: row;
+} */
+
+a{
+  padding:10px;
+  text-decoration: none;
+  color: grey;
+}
+.header-container{
+  display: flex;
+  flex: row;
+  
+
+}
+
+.header-left{
+display: flex;
+align-items: flex-start;
+}
+
+.space{
+  margin-right: 870px;
+}
+
+
+.header-right{
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.user-icon{
+  background-color: red;
+  border-radius: 50%;
+  height:25px;
+  width:25px;
+  padding:10px;
+  color: white;
+  
+  text-align: center;
+}
+
+.google-container {
+  /* max-width: 1000px;
+  max-height:1000px;
+  margin: 0 auto; */
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar-container{
+  display:flex;
+  justify-content: center;
+}
+
+.google{
+  display: flex;
+  justify-content: center;
+
+  margin-top:100px;
+  margin-bottom: 30px;
+
+  font-size: 150px;
+}
+
+
+
+
+.logo img {
+  max-width: 200px;
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #fff;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  
+}
+
+.search-icons {
+  display: flex;
+  align-items: center;
+}
+
+.search-icons img {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+  
+button {
+  background-color: #f2f2f2;
+  border: 1px solid #dfe1e5;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 230px;
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+  font-size: 14px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #555;
+  margin: 0 10px;
+}
+
+#firstG{
+  color:blue;
+}
+
+#firstO{
+  color:red;
+}
+
+#secondO{
+  color:orange;
+
+}
+
+#secondG{
+  color:blue;
+
+}
+
+#l{
+  color:green;
+
+}
+
+#e{
+  color: red;
+}
