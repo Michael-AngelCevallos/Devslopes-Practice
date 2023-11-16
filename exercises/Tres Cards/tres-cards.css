@@ -9,13 +9,14 @@ body{
 }
 
 h1{
+  margin-top: 50px;
   text-align: center;
 }
 
 .container{
-  padding: 0 15%;
+  padding: 0 13%;
   width: auto;
-  height: 100svh;
+  height: 50vh;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -59,4 +60,58 @@ h1{
   flex-direction: column;
   justify-content: space-between;
   gap: 10px;
+}
+
+.card-image img{
+  width: 100%;
+  object-fit: contain;
+  
+}
+
+.card-title{
+  font-weight: 700;
+}
+
+.card-description{
+  color: rgb(128, 128, 128);
+}
+
+.link{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  text-decoration: none;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+
+.link p {
+  color: rgb(128, 128, 128);
+}
+
+.link-icon{
+  width: 1.5em;
+}
+
+.link-icon path {
+  stroke: rgb(128, 128, 128);
+}
+
+
+
+
+@media screen and (min-width:750px) and (max-width: 800px){
+  .container{
+    margin: 8rem 0;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .container{
+    grid-template-columns: repeat(1, 1fr);
+    height: 50vh;
+    margin: 200px 0;
+  }
 }
