@@ -1,0 +1,69 @@
+:root{
+  --icon-color: rgb(210, 186, 248);
+}
+
+
+
+body{
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  background-color: rgb(66, 29, 201);
+  justify-content: right;
+  align-items: center;
+  
+}
+
+.square{
+  color: var(--icon-color);
+  padding: 10px;
+  font-size: 30px;
+}
+
+.circle{
+  color: var(--icon-color);
+  padding: 10px;
+  font-size: 30px;
+}
+
+.triangle{
+  display: flex;
+  color: var(--icon-color);
+  padding: 10px 10px 7.5px 5px;
+  font-size: 17px;
+}
+
+
+.container{
+  display: flex;
+  background-color: rgb(88, 36, 229);
+  height: 60px;
+  align-items: center;
+}
+
+.hamburger{
+  margin: 1px 30px;
+  color: white;
+}
+
+h1{
+  font-size: 20px;
+  color: white;
+  margin: 3.5 10px;
+}
+
+.magnify-glass{
+ position: absolute;
+ right: 60;
+}
+
+.elipses{
+  color: white;
+  position: absolute;
+  right: 20;
+}
+
+
+
