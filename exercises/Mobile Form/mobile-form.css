@@ -2,10 +2,8 @@
   --icon-color: rgb(210, 186, 248);
 }
 
-
-
 body{
-  margin: 0;
+  margin: 0px;
 }
 
 nav{
@@ -31,7 +29,7 @@ nav{
 .triangle{
   display: flex;
   color: var(--icon-color);
-  padding: 10px 10px 7.5px 5px;
+  padding: 10px 10px 10px 5px;
   font-size: 17px;
 }
 
@@ -65,5 +63,49 @@ h1{
   right: 20;
 }
 
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
 
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin: 50px 0;
+}
+
+
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
 
