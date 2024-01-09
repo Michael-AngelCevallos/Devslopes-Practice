@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 1500px; /* Add content to make the page scrollable */
+}
+
+.footerContainer{
+  background-color: rgb(71, 127, 246);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  /* text-align: center; */
+  padding: 15px;
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.info-container{
+  text-align: center;
+}
+
+.questions{
+  font-size: 20px;
+  color: white;
+}
+
+.comment{
+  color: rgb(200, 216, 252);
+}
+
+.contact-button{
+  display: flex;
+  margin: 20px 10px;
+}
