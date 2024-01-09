@@ -32,5 +32,10 @@ body {
 
 .contact-button{
   display: flex;
-  margin: 20px 10px;
+  
+}
+
+.contact-button button{
+  padding: 10px 8px;
+  border-radius: 5px;
 }
